@@ -1,4 +1,4 @@
 // Code your solution in this file!
 function distanceTravelledInFeet(beginBlock, endBlock) {
-  return ((endBlock-beginBlock)*264);
+  return abs(((endBlock-beginBlock)*264));
 }
