@@ -13,5 +13,5 @@ function distanceFromHqInFeet(value) {
 
 function distanceFromHqInBlocks(value) {
 
-  return distance / 264;
+  return Math.abos(value-42);
 }
