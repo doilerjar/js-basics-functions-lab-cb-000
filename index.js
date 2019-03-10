@@ -4,5 +4,5 @@ function distanceTravelledInFeet(beginBlock, endBlock) {
   if (distance < 0) {
     distance = -distance;
   }
-  return (endBlock-beginBlock)*264;
+  return distance*264;
 }
