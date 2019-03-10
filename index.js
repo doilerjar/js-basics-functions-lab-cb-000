@@ -8,6 +8,6 @@ function distanceTravelledInFeet(beginBlock, endBlock) {
 }
 
 function distanceFromHqInBlocks(value) {
-  distance = Math.abs(43-value)
+  distance = Math.abs(43-value);
   return distance / 264;
 }
