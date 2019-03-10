@@ -13,7 +13,7 @@ function distanceFromHqInBlocks(value) {
 }
 
 function calculatesFarePrice(start, destination) {
-  distance = distanceTravelledInFeet(Math.abs(destination - start));
+  distance = distanceTravelledInFeet(start,destination);
   if (distance <= 400) {
     return 0;
   }
